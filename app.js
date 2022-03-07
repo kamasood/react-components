@@ -21,7 +21,6 @@ class GroceryListItem extends React.Component {
 
   // event handling function, in this case alters state and re-renders component
   onListItemHover(event) {
-    console.log(event);
     this.setState({ //invoking setState automatically re-renders class component
       hovered: !this.state.hovered
     });
